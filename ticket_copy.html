@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML to API - event tickets</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Kreon:700|Audiowide&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <!-- <link rel="stylesheet" href="styles/main.css" media="screen" charset="utf-8"/> -->
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="content-type" content="text-html; charset=utf-8">
+</head>
+
+<style>
+  body {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+      background-image: url(assets1/images/Ticket-and-Tour-Maracanap.jpg);
+      background-attachment: fixed;
+  }
+
+  .container {
+    width: 795px;
+      height: 1000px;
+    margin: 0 auto;
+  }
+
+  section {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  section .left {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 635px;
+    padding: 35px 0 0 60px;
+  }
+  section .right {
+    float: right;
+    width: 160px;
+    padding-top: 30px;
+  }
+  section .event {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 1.6em;
+    line-height: 35px;
+    text-transform: uppercase;
+  }
+  section .title {
+    margin-bottom: 35px;
+    color: #F5A623;
+    font-family: "Audiowide", cursive;
+    font-size: 2em;
+    line-height: 72px;
+  }
+  section .info {
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+  section .seats {
+    margin-bottom: 35px;
+    font-size: 0.36em;
+    text-transform: uppercase;
+    text-align: right;
+  }
+  section .seats:last-child {
+    margin-bottom: 0;
+  }
+  section .seats span {
+    display: inline-block;
+    width: 80px;
+    margin-left: 15px;
+    padding: 10px 0;
+    color: #F5A623;
+    background: rgba(255, 255, 255, 0.5);
+    font-family: "Kreon", serif;
+    font-size: 2.777em;
+    text-align: center;
+    vertical-align: middle;
+  }
+    .form-container{
+            border: 0px solid; padding: 20px 40px ;
+            -webkit-box-shadow: 2px 5px 21px 10px rgba(0,0,0,0.75);
+            -moz-box-shadow: 2px 5px 21px 10px rgba(0,0,0,0.75);
+            box-shadow: 2px 5px 21px 10px rgba(0,0,0,0.75);
+            margin-top: 15vh;
+        }
+</style>
+
+<body>
+  <div class="container">
+    <section class="form-container">
+      <div class="left">
+        <div class="event">Hero ISL 2018-19 </div>
+        <div class="title">Your Ticket</div>
+        <img src="assets1/images/QRCode.png" width="60px" height="60px">
+        <div class="info">Saturday // May 1 2023 // Civitas Metropolitan Stadium // Madrid</div>
+      </div>
+      <div class="right">
+        <div class="seats">section<span>A</span></div>
+        <div class="seats">row<span>13</span></div>
+        <div class="seats">seat<span>120</span></div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
